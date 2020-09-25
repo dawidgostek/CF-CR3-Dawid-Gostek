@@ -1,0 +1,290 @@
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+#container {
+  padding: 0 10px;
+}
+
+/*head */
+#header {
+  background-color: #FFF3F3;
+  padding: 2% 7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navi1 {
+  background-color: #8E1616;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navi1 ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  margin: 2px 0 2px 0;
+}
+
+.navi1 ul li {
+  margin: 0 10%;
+  font-size: 28px;
+}
+
+.navi1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navi1 a:hover {
+  color: #ffffffbd;
+}
+
+/*body */
+/*First box */
+#backgroundDiv {
+  background-image: url("../img/traffic-332857_1920.jpg");
+  background-position: center;
+  padding: 2% 5% 2% 5%;
+  height: 530px;
+}
+
+#backgroundDiv h1 {
+  font-weight: 300;
+  font-size: 45px;
+}
+
+#backgroundDiv #h1 {
+  color: #fff;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+/*Front box */
+#survey {
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  border: 3px solid grey;
+  width: 87%;
+  height: 500px;
+  border-radius: 1px;
+}
+
+#survey h1 {
+  text-align: center;
+  margin-top: 5px;
+}
+
+#survey #tableField {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#survey #tableField .field {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+#survey #tableField p {
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+#survey #tableField input {
+  width: 250px;
+  height: 30px;
+  font-size: 23px;
+}
+
+#survey #tableField #country2 {
+  width: 259px;
+  height: 36px;
+  font-size: 23px;
+}
+
+#survey #res {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#survey #res #submit {
+  background-color: #339235;
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  font-size: 30px;
+  color: #fff;
+}
+
+#survey #res h2 {
+  color: #339235;
+}
+
+/*Second box */
+#text {
+  background-color: #CECECE;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+  height: 180px;
+}
+
+#text h2 {
+  margin: 0 0 2px 0;
+  font-weight: 300;
+  font-size: 42px;
+}
+
+#text h3 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 27px;
+}
+
+/*Third box */
+#table2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#table2 .box {
+  margin: 0 60px 0 60px;
+  width: 255px;
+  -webkit-box-shadow: 1px 1px 1px 1px gray;
+          box-shadow: 1px 1px 1px 1px gray;
+  padding: 30px;
+  font-weight: 300;
+}
+
+#table2 .box h3 {
+  color: #3D6093;
+  font-weight: 300;
+  margin: 0;
+  font-size: 21px;
+}
+
+#table2 .box p {
+  margin: 0;
+}
+
+#table2 .box ul {
+  list-style-type: none;
+  padding: 0;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #c5c5c5da;
+}
+
+#table2 .box ul span {
+  color: #9FD9DB;
+  font-size: 19px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#table2 .box h4 {
+  margin: 0;
+  font-weight: 400;
+}
+
+/*Footer */
+#footer {
+  background-color: #171717;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#footer .navi2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#footer .navi2 ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+}
+
+#footer .navi2 ul li {
+  margin: 0 15%;
+  font-size: 20px;
+}
+
+#footer .navi2 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .navi2 a:hover {
+  color: #ffffffbd;
+}
+
+#footer p {
+  text-align: center;
+  color: #fff;
+}
+
+#logo2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 3%;
+}
+
+/*----------------------mobile--------------------------------*/
+@media screen and (max-width: 1023px) {
+  .navi1 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #banner {
+    display: none;
+  }
+  .navi2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+/*----------------------PC--------------------------------*/
+@media screen and (min-width: 1024px) {
+  .navi1 {
+    padding-left: 5%;
+  }
+  .navi2 {
+    padding-left: 5%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -3,79 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <title>Car Insurance</title>
-    <link type="stylecss" src="Style/style.css">
-    <script src="JavaScript/js.json"></script>
+    <link rel='stylesheet' type='text/css' href='../style/style.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!--<script src="../JavaScript/js.json"></script>-->
     
 </head>
 <body>
     <div id="container">
-        <div="header">
-            <img src="img/logo-inv.png" alt="logo">
-            <img src="img/banner.png" alt="banner">
+        <div id="header">
+            <img src="../img/logo.png" alt="logo" id="logo">
+            <a href="https://www.codefactory.wien"><img src="../img/banner.png" alt="banner" id="banner"></a>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="team.html">Team</a></li>
-            </ul>
-        </nav>
+        <div class="navi1">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="team.html">Team</a></li>
+                </ul>
+            </nav>
+        </div>
         <div id="body">
-        <!--First box-->
+<!----------------First box--------------------------------------->
             <div id="backgroundDiv">
-                <h1>Car Insurance</h1>
+                <h1 id="h1">Car Insurance</h1>
+<!----------------Front box--------------------------------------->
                 <div id="survey">
                     <h1>Great coverage begins <br>
                         with a custom quote</h1>
-                <div id="table">
-                    <div class="field">
-                        <div id="name">
-                            <p>Your name:</p>
-                            <input type="text" id="yourName">
+                    <div id="table">
+                        <div id="tableField">
+                            <div class="field">
+                                <div id="name">
+                                    <p>Your name:</p>
+                                    <input type="text" id="yourName">
+                                </div>
+                                <div id="country">
+                                    <p>Country:</p>
+                                    <select id="country2">
+                                        <option value="1">Austria</option>
+                                        <option value="2">Hungary</option>
+                                        <option value="3">Greece</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div id="age">
+                                    <p>Age:</p>
+                                    <input type="text" id="age2">
+                                </div>
+                                <div id="horsepower">
+                                    <p>Horsepower of your car:</p>
+                                    <input type="text" id="horsepower2">
+                                </div>
+                            </div>
                         </div>
-                        <div id="age">
-                            <p>Age:</p>
-                            <input type="text" id="age2">
+                        <div id="res">
+                            <input type="submit" id="submit" value="Calculate">
+                            <h2 id="result"></h2>
                         </div>
                     </div>
-                    <div class="field">
-                        <div id="country">
-                            <p>Country:</p>
-                            <select id="country2">
-                                <option value="1">Austria</option>
-                                <option value="2">Hungary</option>
-                                <option value="3">Greece</option>
-                            </select>
-                        </div>
-                        <div id="horsepower">
-                            <p>Horsepower of your car:</p>
-                            <input type="text" id="horsepower2">
-                        </div>
-                    </div>
-                    <div id="result">
-                        <input type="submit" id="submit">
-                        <h2></h2>
-                    </div>
-                </div>
                 </div>
             </div>
-            <!--Second box-->
+<!--------------Second box--------------------------------------------------->
             <div id="text">
                 <h2>Un-complicating car coverage</h2>
                 <h3>Understanding your coverage options should't be so hard.</h3>
                 <h3>We'll guide you through available coverage types,</h3>
                 <h3>starting with who and what is covered.</h3>
             </div>
-            <!--Third box-->
+<!--------------Third box---------------------------------------------------->
             <div id="table2">
                 <div class="box">
                     <h3>What comes standard</h3>
                     <p>The coverage you need</p>
                     <ul>
-                        <li>Bodily Injury Liability</li>
-                        <li>Property Damage</li>
-                        <li>Medical Payments</li>
+                        <li><span>&#10004;</span>Bodily Injury Liability</li>
+                        <li><span>&#10004;</span>Property Damage</li>
+                        <li><span>&#10004;</span>Medical Payments</li>
                     </ul>
-                    <p>Benefits</p>
+                    <h4>Benefits</h4>
                     <p>12-month rate guarantee | 24/7 customer</p>
                     <p>service | Lifetime Repair Guarantee</p>
                 </div>
@@ -83,30 +89,32 @@
                     <h3>Add-on protection & coverage</h3>
                     <p>For more peace of mind</p>
                     <ul>
-                        <li>Better Car Replacement</li>
-                        <li>Towing & Labor</li>
-                        <li>Rental Car Coverage</li>
+                        <li><span>&#10004;</span>Better Car Replacement</li>
+                        <li><span>&#10004;</span>Towing & Labor</li>
+                        <li><span>&#10004;</span>Rental Car Coverage</li>
                     </ul>
-                    <p>Earned Benefits</p>
+                    <h4>Earned Benefits</h4>
                     <p>Accident Forgiveness¹ | New Car</p>
                     <p>Replacement&#8482;</p>
                 </div>
-
             </div>
-
-
         </div>
+<!---------------------Footer------------------------->
         <div id="footer">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="team.html">Team</a></li>
-                </ul>
-            </nav>
-            <img src="img/logo-inv.png" alt="logo">
+            <div class="navi2">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="team.html">Team</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="logo2">
+                <img src="../img/logo-inv.png" alt="logo" id="logo2">
+            </div>
             <p>Dawid Gostek - CodeFactory 2020</p>
         </div>
     </div>
-    <script src="JavaScript/js.js"></script>
+    <script src="../JavaScript/js.js"></script>
 </body>
 </html>
