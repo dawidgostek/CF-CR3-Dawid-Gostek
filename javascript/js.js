@@ -14,8 +14,7 @@ function calculateInsurance(){
     } else if(country == 3){
         var x = ((horsepower*150)/(age+50)).toFixed(2);
         document.getElementById("result1").innerHTML = (`${name}, your insurance costs ${x} €`);
-        }
-        
+        }     
 }
 document.getElementById("submit").addEventListener("click", calculateInsurance, false);
 
