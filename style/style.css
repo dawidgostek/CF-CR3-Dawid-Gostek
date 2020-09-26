@@ -287,4 +287,40 @@ body {
     padding-left: 5%;
   }
 }
+
+/*------team.html--------*/
+#imgDiv {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#imgDiv #team {
+  width: 100%;
+}
+
+#textTeam {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#textTeam h1 {
+  margin-bottom: 0;
+}
+
+#textTeam p {
+  margin-top: 0;
+}
+
+#result {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+#result p {
+  margin: 0;
+}
 /*# sourceMappingURL=style.css.map */

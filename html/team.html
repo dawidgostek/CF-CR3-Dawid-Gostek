@@ -3,38 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <title>Car Insurance</title>
-    <link type="stylecss" src="Style/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <script src="JavaScript/js.json"></script>
+    <link rel='stylesheet' type='text/css' href='../style/style.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="../javascript/team.json"></script>
     
 </head>
 <body>
     <div id="container">
-        <div="header">
-            <img src="../img/logo-inv.png" alt="logo">
-            <img src="../img/banner.png" alt="banner">
+        <div id="header">
+            <img src="../img/logo.png" alt="logo" id="logo">
+            <a href="https://www.codefactory.wien"><img src="../img/banner.png" alt="banner" id="banner"></a>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="team.html">Team</a></li>
-            </ul>
-        </nav>
-        <div id="body">
-
-
-        </div>
-        <div id="footer">
+        <div class="navi1">
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="team.html">Team</a></li>
                 </ul>
             </nav>
-            <img src="../img/logo-inv.png" alt="logo">
+        </div>
+        <div id="bodyTeam">
+            <div id="imgDiv">
+                <img src="../img/team.jpg" alt="team" id="team">
+            </div>
+            <div id="textTeam">
+                <h1>About us</h1>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+                    sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
+                    sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+                    Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
+                    invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam 
+                    et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem 
+                    ipsum dolor sit amet.
+                </p>
+                <h2>Our Team</h2>
+            </div>
+            <div id="result"></div>
+        </div>
+
+
+        <div id="footer">
+            <div class="navi2">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="team.html">Team</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="logo2">
+                <img src="../img/logo-inv.png" alt="logo" id="logo2">
+            </div>
             <p>Dawid Gostek - CodeFactory 2020</p>
         </div>
     </div>
-    <script src="JavaScript/js.js"></script>
+    <script src="../javascript/team.js"></script>
 </body>
 </html>

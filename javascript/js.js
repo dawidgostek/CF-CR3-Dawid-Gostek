@@ -1,3 +1,4 @@
+//idex.html
 function calculateInsurance(){
     var name = document.getElementById("yourName").value;
     var age = Number(document.getElementById("age2").value);
@@ -17,3 +18,4 @@ function calculateInsurance(){
         
 }
 document.getElementById("submit").addEventListener("click", calculateInsurance, false);
+

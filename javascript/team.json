@@ -1,0 +1,23 @@
+var teamMembers = `[
+    {
+        "name":"Fran", 
+        "email":"fran@index.com",
+        "image":"src='../img/person1.jpg'",
+        "about": "About me:",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+    },
+    {
+        "name":"Bill",
+        "email":"bill@index.com",
+        "image":"src='../img/person2.jpg'",
+        "about": "About me:",
+        "text": "At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+    },
+    {
+        "name":"Fritz", 
+        "email":"fritz@index.com",
+        "image":"src='../img/person3.jpg'",
+        "about": "About me:",
+        "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+    }
+]`
