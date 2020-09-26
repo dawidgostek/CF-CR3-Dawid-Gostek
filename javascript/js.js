@@ -7,13 +7,13 @@ function calculateInsurance(){
 
     if(country == 1){
         var x = ((horsepower*100)/(age+50)).toFixed(2);
-        document.getElementById("result").innerHTML = (`${name}, your insurance costs ${x} €`);
+        document.getElementById("result1").innerHTML = (`${name}, your insurance costs ${x} €`);
     } else if(country == 2){
         var x = ((horsepower*120)/(age+100)).toFixed(2);
-        document.getElementById("result").innerHTML = (`${name}, your insurance costs ${x} €`);
+        document.getElementById("result1").innerHTML = (`${name}, your insurance costs ${x} €`);
     } else if(country == 3){
         var x = ((horsepower*150)/(age+50)).toFixed(2);
-        document.getElementById("result").innerHTML = (`${name}, your insurance costs ${x} €`);
+        document.getElementById("result1").innerHTML = (`${name}, your insurance costs ${x} €`);
         }
         
 }

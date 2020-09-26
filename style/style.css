@@ -96,8 +96,8 @@ body {
 }
 
 #survey #tableField .field {
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
 #survey #tableField p {
@@ -133,6 +133,7 @@ body {
 }
 
 #survey #res h2 {
+  margin-top: 3px;
   color: #339235;
 }
 
